@@ -76,9 +76,12 @@ function SellNow() {
 
 
   return (
-    <div className="mt-20 p-6 flex justify-center">
-      <div className={`grid md:grid-cols-2 grid-cols-1 border border-blue-900 rounded-lg shadow-2xl p-4`}>
-        <div>
+    <div className="mt-20 p-6 flex justify-center flex-col">
+      <div className='flex justify-center text-3xl font-extrabold text-blue-900 mb-6'>
+        Sell your bike in 3 easy steps!
+      </div>
+      <div className={`grid md:grid-cols-2 grid-cols-1 border border-gray-200 rounded-lg shadow-2xl p-4`}>
+        <div className='flex justify-center items-center'>
           <img
             src='assets/sellnowImage.jpeg'
             alt="Sell Now"

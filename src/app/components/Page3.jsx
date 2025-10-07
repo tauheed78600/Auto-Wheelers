@@ -7,7 +7,7 @@ function Page3() {
   return (
     <div className="flex items-center justify-center">
       <div className="flex flex-col-reverse lg:flex-row items-center gap-12 max-w-6xl w-full">
-        
+
         <div className="w-full lg:w-1/2 p-6 rounded-2xl bg-white/20 border border-white/30 shadow-xl backdrop-blur-md transition-all duration-300 hover:shadow-2xl">
           <h2 className="text-blue-900 limelight font-bold text-4xl sm:text-5xl md:text-6xl leading-tight text-center lg:text-left">
             Trade Smart
@@ -26,8 +26,10 @@ function Page3() {
           </div>
 
           <div className="mt-6 flex justify-center lg:justify-start">
-            <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full shadow-md transition duration-300 flex items-center gap-3">
-              Get Started <MoveRight />
+            <button className="px-6 cursor-pointer py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full shadow-md transition duration-300 flex items-center gap-3">
+              <a href='/sell-now' className="block w-full h-full flex flex-row gap-2">
+                Get Started <MoveRight />
+              </a>
             </button>
           </div>
         </div>
