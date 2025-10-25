@@ -31,7 +31,7 @@ function Footer() {
                         <li><a href="/sell-now" className="hover:text-blue-600 transition">Sell Now</a></li>
                         <li><a href="/blog" className="hover:text-blue-600 transition">Blog</a></li>
                         <li><a href="/privacy-policy" className="hover:text-blue-600 transition">Privacy Policy</a></li>
-                        <li><a href="/terms-n-conditions" className="hover:text-blue-600 transition">Terms & Conditions</a></li>
+                        <li><a href="/terms-and-conditions" className="hover:text-blue-600 transition">Terms & Conditions</a></li>
                         <li><a href="/faqs" className="hover:text-blue-600 transition">FAQs</a></li>
                         <li><a href="/contact-us" className="hover:text-blue-600 transition">Contact Us</a></li>
                     </ul>

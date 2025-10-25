@@ -26,7 +26,7 @@ function Header() {
         },
                 {
             name: "Contact us",
-            link: "/about-us"
+            link: "/contact-us"
         },
                 {
             name: "FAQ",
